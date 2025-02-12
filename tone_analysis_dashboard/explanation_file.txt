@@ -1,0 +1,15 @@
+how to run:
+1. open the folder in vscode
+2. open new terminal in the vscode
+3. paste this : streamlit run emotion_dashboard.py ### to run emotion dashboard
+4. open another termianl
+4. paste this : streamlit run personality_dashboard.py  ### to run the personality dashboard
+
+
+
+purpose of file:
+emotion_dashboard.py - emotion dashboard main file, call the function in the preprocess_function.py file and display the emotion result. 
+personality_dashboard.py - personality dashboard main file, call the function in the preprocess_function.py file and display the personality result. 
+preprocess_function.py - file included all the preprocess function, both the dashboard file will call those function in this file.
+
+emotion model folder and personality model folder - included all the trained model, will be call in the preprocess function to predict the result.
